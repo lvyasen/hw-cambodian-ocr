@@ -1,12 +1,7 @@
 <?php
 
 namespace Qinyi\HwOcr;
-//define("BasicDateFormat", "Ymd\THis\Z");
-//define("Algorithm", "SDK-HMAC-SHA256");
-//define("HeaderXDate", "X-Sdk-Date");
-//define("HeaderHost", "host");
-//define("HeaderAuthorization", "Authorization");
-//define("HeaderContentSha256", "X-Sdk-Content-Sha256");
+
 const BasicDateFormat='Ymd\THis\Z';
 const Algorithm='SDK-HMAC-SHA256';
 const HeaderXDate='X-Sdk-Date';
@@ -42,9 +37,6 @@ class Signer
 
         $authValue = $this->AuthHeaderValue($signature, $this->Key, $signedHeaders);
         $r->headers[HeaderAuthorization] = $authValue;
-//        $data = [
-//            'url'=>'http://ly-jdj.oss-ap-southeast-3.aliyuncs.com/uploads/identity/a73d3ab3-04de-c365-eaf0-a3e176e9c39d/4da83bf0-ea34-39ea-3c59-21bdeca99718/20231206/F4D8C2DA-732C-4C89-8457-DD6BD6C5C8F2.png'
-//        ];
         $curl = curl_init();
         $uri = str_replace(array("%2F"), array("/"), rawurlencode($r->uri));
         $url = $r->scheme . '://' . $r->host . $uri . $queryString;
@@ -52,14 +44,12 @@ class Signer
         curl_setopt($curl, CURLOPT_URL, $url);
         curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($curl, CURLOPT_CUSTOMREQUEST, $r->method);
-//        curl_setopt($curl, CURLOPT_POSTFIELDS, $r->body);
         curl_setopt($curl, CURLOPT_POSTFIELDS, $r->body);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
         curl_setopt($curl, CURLOPT_NOBODY, FALSE);
         $data = curl_exec($curl);
         curl_close($curl);
         return json_decode($data,true);
-//        return $curl;
     }
 
     private function findHeader($r, $header)
