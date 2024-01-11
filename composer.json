@@ -1,5 +1,5 @@
 {
-    "name": "qinyi/hw-ocr",
+    "name": "qinyikeji/hw-ocr",
     "description": "华为柬文识别 OCR",
     "keywords": ["柬文识别"],
     "type": "library",
