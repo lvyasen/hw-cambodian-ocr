@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'qinyi/hw-ocr',
+        'name' => 'qinyikeji/hw-ocr',
         'pretty_version' => '1.0.0+no-version-set',
         'version' => '1.0.0.0',
         'reference' => NULL,
@@ -147,7 +147,7 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
-        'qinyi/hw-ocr' => array(
+        'qinyikeji/hw-ocr' => array(
             'pretty_version' => '1.0.0+no-version-set',
             'version' => '1.0.0.0',
             'reference' => NULL,

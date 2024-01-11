@@ -11,8 +11,8 @@ class OcrClient
     public $projectId = '';
     public function __construct()
     {
-        $args = func_get_args();
-        print_r($args);
+//        $args = func_get_args();
+//        print_r($args);
 //        $this->accessKey = $accessKey;
 //        $this->accessSecret = $accessSecret;
 //        $this->projectId = $projectId;
