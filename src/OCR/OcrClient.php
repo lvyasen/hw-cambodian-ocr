@@ -46,7 +46,7 @@ class OcrClient
         );
         return $signer->Sign($request);
     }
-    private function getCambodianOCRURI(): string
+    private function getCambodianOCRURI()
     {
         $uri = 'https://ocr.ap-southeast-3.myhuaweicloud.com/v2/%s/ocr/cambodian-idcard';
         return sprintf($uri,$this->projectId);

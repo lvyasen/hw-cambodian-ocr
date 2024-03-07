@@ -4,7 +4,8 @@
     "keywords": ["柬文识别"],
     "type": "library",
     "require": {
-        "php": ">=5.6.0"
+        "php": ">=5.6.0",
+        "alibabacloud/imm-20200930": "4.3.0"
     },
     "license": "MIT",
     "autoload": {

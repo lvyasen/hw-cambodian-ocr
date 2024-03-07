@@ -34,6 +34,25 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpdocumentor/reflection-common" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/adbario/php-dot-notation" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/alibabacloud/credentials" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/alibabacloud/darabonba-openapi" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/alibabacloud/endpoint-util" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/alibabacloud/gateway-spi" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/alibabacloud/imm-20200930" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/alibabacloud/openapi-util" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/alibabacloud/tea" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/alibabacloud/tea-utils" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/alibabacloud/tea-xml" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/lizhichao/one-sm" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/deprecation-contracts" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
